@@ -1,14 +1,13 @@
 import logo from './Assets/logo.svg';
-import img from './Assets/michael.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={img} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Congratulations to Mills Oakley's newest graduate. Michael Siu.
+          Testing
         </p>
         <a
           className="App-link"
